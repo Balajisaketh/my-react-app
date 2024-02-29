@@ -33,7 +33,7 @@ endpoints to note:
 used to delete blogs or posts by id based
 
 ### Restore the .sql file 
-1.install postgresql and pgadmin
+1.install postgresql and pgadmin <br/>
 2.create a db in pgadmin
 3.after that right click on create db there is a dropdown 
 4.select Restore and choose the location of file and select it 
