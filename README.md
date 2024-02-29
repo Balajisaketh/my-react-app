@@ -18,20 +18,20 @@ endpoints to note:
   ### description:
   gets all posts based on id
   
-  
+  ## Method:post
 2.http://localhost:3001/posts
   ### description:
   used to insert posts or blogs
-  ## Method:post
   
+  ## method:get
 3.http://localhost:3001/getposts
   ### description:
   used to get all data of posts
-  ## method:get
+  ## method:delete
 4.http://localhost:3001/deletepost/:id
 ### description
 used to delete blogs or posts by id based
-## method:delete
+
 
 ### `npm start`
 run npm i before starting the app to install all dependencies
