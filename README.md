@@ -34,10 +34,10 @@ used to delete blogs or posts by id based
 
 ### Restore the .sql file 
 1.install postgresql and pgadmin <br/>
-2.create a db in pgadmin
-3.after that right click on create db there is a dropdown 
-4.select Restore and choose the location of file and select it 
-5.now db and data are sucessfully imported or backed up  
+2.create a db in pgadmin <br/>
+3.after that right click on create db there is a dropdown  <br/>
+4.select Restore and choose the location of file and select it  <br/>
+5.now db and data are sucessfully imported or backed up  <br/>
 ### `npm start`
 run npm i before starting the app to install all dependencies
 Runs the app in the development mode.\
