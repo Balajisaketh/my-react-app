@@ -13,11 +13,11 @@ now we are set to go run command node index.js to start our backend
 import db which i will share in email in pgadmin of postgresql
 after the above steps there will be a perfect api call please do test in postman after following the process
 endpoints to note:
+## method:get
 1.http://localhost:3001/getposts/:id
   ### description:
   gets all posts based on id
-  ## method:get
-  used to get all data of posts by id
+  
   
 2.http://localhost:3001/posts
   ### description:
