@@ -5,9 +5,36 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+### running backend
+
+move to backend folder using cd backend
+run command npm i before starting the app to install all dependencies
+now we are set to go run command node index.js to start our backend 
+import db which i will share in email in pgadmin of postgresql
+after the above steps there will be a perfect api call please do test in postman after following the process
+endpoints to note:
+1.http://localhost:3001/getposts/:id
+  ### description:
+  gets all posts based on id
+  ## method:get
+  used to get all data of posts by id
+  
+2.http://localhost:3001/posts
+  ### description:
+  used to insert posts or blogs
+  ## Method:post
+  
+3.http://localhost:3001/getposts
+  ### description:
+  used to get all data of posts
+  ## method:get
+4.http://localhost:3001/deletepost/:id
+### description
+used to delete blogs or posts by id based
+## method:delete
 
 ### `npm start`
-
+run npm i before starting the app to install all dependencies
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
