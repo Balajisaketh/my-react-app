@@ -32,7 +32,12 @@ endpoints to note:
 ### description
 used to delete blogs or posts by id based
 
-
+### Restore the .sql file 
+1.install postgresql and pgadmin
+2.create a db in pgadmin
+3.after that right click on create db there is a dropdown 
+4.select Restore and choose the location of file and select it 
+5.now db and data are sucessfully imported or backed up  
 ### `npm start`
 run npm i before starting the app to install all dependencies
 Runs the app in the development mode.\
